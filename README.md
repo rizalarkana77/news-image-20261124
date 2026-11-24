@@ -1,8 +1,8 @@
 # One Day, Five Stories — Tuesday 24 November 2026
 
-[![make.fun](https://make.fun/badge.svg)](https://make.fun/bounty/news-image-20261124)
-[![rank](https://make.fun/rank.svg?owner=rizalarkana77&repo=news-image-20261124)](https://make.fun/bounty/news-image-20261124)
-[![reward](https://make.fun/reward.svg?owner=rizalarkana77&repo=news-image-20261124)](https://make.fun/bounty/news-image-20261124)
+[![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![rank](https://make.fun/badge/news-image-20261124/rizalarkana77/news-image-20261124/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![reward](https://make.fun/badge/news-image-20261124/rizalarkana77/news-image-20261124/reward.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 
 A single image that sums up the world's news of **Tuesday 24 November 2026** —
 built for the make.fun competition
