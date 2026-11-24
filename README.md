@@ -66,6 +66,15 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 # writes out/entry.png, 1024x1024 PNG, 456,095 bytes
 ```
 
+## How it runs
+
+1. Read `entry.png` and check it is a real PNG within the limits
+   (1024×1024, 1 MiB, truecolour, ends with IEND).
+2. Create the output directory if it is missing, then copy the file
+   byte for byte to `$MAKEFUN_OUTPUT_DIR/entry.png`.
+3. Read the copy back and compare its sha256 with the source — if the
+   hashes differ, the run fails instead of handing the grader a bad file.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

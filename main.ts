@@ -50,6 +50,9 @@ async function main(): Promise<void> {
   const source = join(here, "entry.png");
   const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
   const target = join(outDir, "entry.png");
+  if (outDir.trim() === "") {
+    throw new Error("MAKEFUN_OUTPUT_DIR is set but empty; unset it or give a directory");
+  }
 
   const info = await stat(source);
   if (!info.isFile()) {
